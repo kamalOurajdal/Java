@@ -1,0 +1,77 @@
+# Compiled / build
+**/target/
+**/build/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+.gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE - VS Code / Cursor
+.vscode/
+.cursor/
+*.code-workspace
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# IDE - NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+
+# Spring Boot
+HELP.md
+spring-shell.log
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+application-local.properties
+application-local.yml
+
+# H2 / local DB files
+*.db
+*.mv.db
+*.trace.db
